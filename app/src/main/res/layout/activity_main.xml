@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/teal_200"
+    >
 
     <TextView
         android:id="@+id/idTVQuestionAttempt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:text="Number of Questions"
         android:textAlignment="center"
@@ -19,67 +21,71 @@
         android:textSize="20sp" />
 
     <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/idTVQuestion"
-            android:layout_below="@id/idTVQuestionAttempt"
-            android:layout_marginTop="30dp"
-            android:text="Question"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            />
+        android:id="@+id/idTVQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVQuestionAttempt"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:layout_below="@id/idTVQuestion"
-        android:orientation="vertical"
-        >
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
         <Button
+            android:id="@+id/idBtnOption1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/white"
             android:padding="4dp"
             android:text="Option 1"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption1"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
+
         <Button
+            android:id="@+id/idBtnOption2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 2"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption2"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
 
         <Button
+            android:id="@+id/idBtnOption3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 3"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption3"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
+
         <Button
+            android:id="@+id/idBtnOption4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 4"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption4"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/jeozonelogotransparent" />
 
 
 </RelativeLayout>
