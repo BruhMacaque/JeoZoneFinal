@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openGameScreen(){
-        Intent intent = new Intent(this, GameScreen2.class);
+        Intent intent = new Intent(this, GameScreen3.class);
         startActivity(intent);
     }
 }

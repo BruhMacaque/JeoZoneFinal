@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JeoZoneFinal">
         <activity
+            android:name=".GameScreen4Hard"
+            android:exported="false" />
+        <activity
+            android:name=".GameScreen3"
+            android:exported="false" />
+        <activity
             android:name=".GameScreen2"
             android:exported="false" />
         <activity

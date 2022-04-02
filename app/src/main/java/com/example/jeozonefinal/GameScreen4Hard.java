@@ -1,21 +1,21 @@
 
 package com.example.jeozonefinal;
 
-        import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
-        import android.os.Bundle;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.LinearLayout;
-        import android.widget.TextView;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
-        import com.google.android.material.bottomsheet.BottomSheetDialog;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
-        import java.util.ArrayList;
-        import java.util.Random;
+import java.util.ArrayList;
+import java.util.Random;
 
-public class GameScreen2 extends AppCompatActivity {
+public class GameScreen4Hard extends AppCompatActivity {
     private int a;
     private TextView question;
     private TextView questionNumber;
@@ -92,7 +92,7 @@ public class GameScreen2 extends AppCompatActivity {
     }
 
     private void showBottomSheet(){
-        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(GameScreen2.this);
+        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(GameScreen4Hard.this);
         View bottomSheetView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.score_sheet, (LinearLayout)findViewById(R.id.LLScore));
         TextView score = bottomSheetView.findViewById(R.id.Score);
         Button restartButton = bottomSheetView.findViewById(R.id.RestartBtn);
@@ -128,20 +128,16 @@ public class GameScreen2 extends AppCompatActivity {
     }
     private void getQuizQuestions(ArrayList<QuizStuff> quizStuffPassed) {
         //Easy questions
-        quizStuffPassed.add(new QuizStuff("What is the capital of Canada?", "Ottawa", "London", "Ontario", "Vancouver", "Ottawa"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Ireland?", "Edinburg", "Dublin", "London", "Cardiff", "Dublin"));
-        quizStuffPassed.add(new QuizStuff("Where is Colosseum located?", "Spain", "Austria", "France", "Italy", "Italy"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Russia?", "Saint-Petersburg", "Novgorod", "Kiev", "Moscow", "Moscow"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of India?", "Delhi", "Chennai", "Kolkata", "Bengaluru", "Delhi"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Argentina?", "Buenos Aires", "Mendoza", "Córdoba", "Rosario", "Buenos Aires"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Uganda?", "Kasese", "Lira", "Mbarara", "Kampala", "Kampala"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Denmark?", "Randers", "Copenhagen", "Herning", "Kolding", "Copenhagen"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Belgium?", "Brussels", "Antwerp", "Leuven", "Charleroi", "Brussels"));
-        quizStuffPassed.add(new QuizStuff("Where is Mount Everest located?", "Asia", "Europe", "Africa", "North America", "Asia"));
-        quizStuffPassed.add(new QuizStuff("Where is Taj Mahal located?", "Afghanistan", "Pakistan", "India", "Nepal", "India"));
-        quizStuffPassed.add(new QuizStuff("Where is Grand Canyon located?", "Arizona", "Kansas", "Texas", "Nevada", "Arizona"));
-        quizStuffPassed.add(new QuizStuff("Where is Easter Island located?", "Argentina", "Chile", "Bolivia", "Colombia", "Chile"));
-        //Hard questions
+
+       //Hard questions
+        quizStuffPassed.add(new QuizStuff("Where is Rainbow Mountain located?", "Australia", "Brazil", "Peru", "Argentina", "Peru"));
+        quizStuffPassed.add(new QuizStuff("Where is Cat Island located?", "Vietnam", "Thailand", "Korea", "Japan", "France"));
+        quizStuffPassed.add(new QuizStuff("Where is Mount Kilimanjaro located?", "Kenya", "Mozambique", "Tanzania", "Ethiopia", "Tanzania"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Kazakhstan?", "Almaty", "Taraz", "Nur-Sultan", "Turkistan", "Nur-Sultan"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Poland?", "Warszawa", "Kraków", "Gdańsk", "Łódź", "Warszawa"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Vietnam?", "Haiphong", "Hanoi", "Ho Chi Minh", "Pleiku", "Hanoi"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Wales?", "Edinburg", "Dublin", "London", "Cardiff", "Cardiff"));
+
 
 
     }

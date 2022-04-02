@@ -14,24 +14,39 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:gravity="center"
-        android:text="Welcome to JeoZone!"
+        android:text="Select difficulty"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/playBtn"
+        android:id="@+id/easyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:layout_below="@+id/idTVQuestionAttempt"
+        android:text="Easy"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/hardBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/idTVQuestionAttempt"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="@color/white"
         android:padding="4dp"
-        android:text="Play"
+        android:text="Hard"
         android:textAllCaps="false" />
 
     <ImageView
