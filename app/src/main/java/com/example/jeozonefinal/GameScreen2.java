@@ -134,15 +134,16 @@ public class GameScreen2 extends AppCompatActivity {
         quizStuffPassed.add(new QuizStuff("What is the capital of Russia?", "Saint-Petersburg", "Novgorod", "Kiev", "Moscow", "Moscow"));
         quizStuffPassed.add(new QuizStuff("What is the capital of India?", "Delhi", "Chennai", "Kolkata", "Bengaluru", "Delhi"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Argentina?", "Buenos Aires", "Mendoza", "Córdoba", "Rosario", "Buenos Aires"));
-        quizStuffPassed.add(new QuizStuff("What is the capital of Uganda?", "Kasese", "Lira", "Mbarara", "Kampala", "Kampala"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Denmark?", "Randers", "Copenhagen", "Herning", "Kolding", "Copenhagen"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Belgium?", "Brussels", "Antwerp", "Leuven", "Charleroi", "Brussels"));
         quizStuffPassed.add(new QuizStuff("Where is Mount Everest located?", "Asia", "Europe", "Africa", "North America", "Asia"));
         quizStuffPassed.add(new QuizStuff("Where is Taj Mahal located?", "Afghanistan", "Pakistan", "India", "Nepal", "India"));
         quizStuffPassed.add(new QuizStuff("Where is Grand Canyon located?", "Arizona", "Kansas", "Texas", "Nevada", "Arizona"));
         quizStuffPassed.add(new QuizStuff("Where is Easter Island located?", "Argentina", "Chile", "Bolivia", "Colombia", "Chile"));
+        quizStuffPassed.add(new QuizStuff("Where is Mount Olympus located", "Italy", "Albania", "Greece", "Bulgaria", "Greece"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Greece?", "Rome", "Athens", "Thessaloniki", "Heraklion", "Athens"));
+        quizStuffPassed.add(new QuizStuff("What is Earth's most northern place?", "Greenland", "Yukon", "The South Pole", "The North Pole", "The North Pole"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Austria?", "Bucharest", "Berlin", "Budapest", "Vienna", "Vienna"));
         //Hard questions
-
-
     }
 }

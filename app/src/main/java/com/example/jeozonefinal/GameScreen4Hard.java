@@ -130,13 +130,24 @@ public class GameScreen4Hard extends AppCompatActivity {
         //Easy questions
 
        //Hard questions
-        quizStuffPassed.add(new QuizStuff("Where is Rainbow Mountain located?", "Australia", "Brazil", "Peru", "Argentina", "Peru"));
         quizStuffPassed.add(new QuizStuff("Where is Cat Island located?", "Vietnam", "Thailand", "Korea", "Japan", "France"));
         quizStuffPassed.add(new QuizStuff("Where is Mount Kilimanjaro located?", "Kenya", "Mozambique", "Tanzania", "Ethiopia", "Tanzania"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Kazakhstan?", "Almaty", "Taraz", "Nur-Sultan", "Turkistan", "Nur-Sultan"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Poland?", "Warszawa", "Kraków", "Gdańsk", "Łódź", "Warszawa"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Vietnam?", "Haiphong", "Hanoi", "Ho Chi Minh", "Pleiku", "Hanoi"));
         quizStuffPassed.add(new QuizStuff("What is the capital of Wales?", "Edinburg", "Dublin", "London", "Cardiff", "Cardiff"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Uganda?", "Kasese", "Lira", "Mbarara", "Kampala", "Kampala"));
+        quizStuffPassed.add(new QuizStuff("Where is Albania located?", "Europe", "Asia", "South America", "Asia", "Europe"));
+        quizStuffPassed.add(new QuizStuff("What is the World's longest river?", "Amazon River", "Nile River", "Mississippi River", "Congo River", "Nile"));
+        quizStuffPassed.add(new QuizStuff("What is the shape of river delta?", "Triangular", "Square", "Circular", "Straight", "Triangular"));
+        quizStuffPassed.add(new QuizStuff("What is the previous name of Beijing?", "Chongqing", "Shenzhen", "Peking", "Shanghai", "Peking"));
+        quizStuffPassed.add(new QuizStuff("What is the previous name of Beijing?", "Chongqing", "Shenzhen", "Peking", "Shanghai", "Peking"));
+        quizStuffPassed.add(new QuizStuff("World's least population dense country?", "Lebanon", "Panama", "Jamaica", "Mongolia", "Mongolia"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Bulgaria?", "Katherine", "Budapest", "Anna", "Sofia", "Sofia"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Romania?", "Sofia", "Budapest", "Bucharest", "Oradea", "Bucharest"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Hungary?", "Vienna", "Budapest", "Bucharest", "Debrecen", "Budapest"));
+        quizStuffPassed.add(new QuizStuff("What is the capital of Hungary?", "Vienna", "Budapest", "Bucharest", "Debrecen", "Budapest"));
+
 
 
 
