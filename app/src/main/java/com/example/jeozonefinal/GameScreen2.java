@@ -44,6 +44,8 @@ public class GameScreen2 extends AppCompatActivity {
         currentPos = random.nextInt(quizArray.size());
         setDataToView(currentPos);
 
+        //gets input from a button press
+
         option1Btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -90,6 +92,7 @@ public class GameScreen2 extends AppCompatActivity {
         });
 
     }
+// shows the final pop-up window
 
     private void showBottomSheet(){
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(GameScreen2.this);
@@ -111,7 +114,7 @@ public class GameScreen2 extends AppCompatActivity {
         bottomSheetDialog.setContentView(bottomSheetView);
         bottomSheetDialog.show();
     }
-
+// sets button text to correspond with pre-written questions
     private void setDataToView(int currentPos){
         questionNumber.setText("Questions Attempted: " + questionCounter + "/5");
 
@@ -126,6 +129,9 @@ public class GameScreen2 extends AppCompatActivity {
         }
 
     }
+
+    //stores questions for the quiz
+
     private void getQuizQuestions(ArrayList<QuizStuff> quizStuffPassed) {
         //Easy questions
         quizStuffPassed.add(new QuizStuff("What is the capital of Canada?", "Ottawa", "London", "Ontario", "Vancouver", "Ottawa"));

@@ -44,6 +44,8 @@ public class GameScreen4Hard extends AppCompatActivity {
         currentPos = random.nextInt(quizArray.size());
         setDataToView(currentPos);
 
+        //gets input from a button press
+
         option1Btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -91,6 +93,8 @@ public class GameScreen4Hard extends AppCompatActivity {
 
     }
 
+    // shows the final pop-up window
+
     private void showBottomSheet(){
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(GameScreen4Hard.this);
         View bottomSheetView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.score_sheet, (LinearLayout)findViewById(R.id.LLScore));
@@ -112,6 +116,8 @@ public class GameScreen4Hard extends AppCompatActivity {
         bottomSheetDialog.show();
     }
 
+    // sets button text to correspond with pre-written questions
+
     private void setDataToView(int currentPos){
         questionNumber.setText("Questions Attempted: " + questionCounter + "/5");
 
@@ -126,6 +132,9 @@ public class GameScreen4Hard extends AppCompatActivity {
         }
 
     }
+
+    //stores questions for the quiz
+
     private void getQuizQuestions(ArrayList<QuizStuff> quizStuffPassed) {
         //Easy questions
 
